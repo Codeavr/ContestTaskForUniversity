@@ -17,7 +17,7 @@ namespace Space
                 _i++;
             }
             string result = "";
-            if (k !=0 && k<= length && length < 11)
+            if (k !=0 && k<= length && length < 10)
             {
                 result += b[k-1].ToString();
                 Console.WriteLine(result);
