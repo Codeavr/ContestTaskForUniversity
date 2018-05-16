@@ -40,16 +40,22 @@ namespace Space
                             {
                                 if (m != k && finded == true)
                                 {
-                                    checking[i] += char.ToUpper(c);
+                                    checking[i] += "";
                                     m++;
                                 }
                                 else
                                 {
-                                    checking[i] += c;
+                                    if(finded == false)
+                                    {
+                                        checking[i] += c;
+                                    }      
                                 }
                             }
                         }
-                        result += checking[i] + " ";
+                        if (checking[i].Length != 0)
+                        {
+                            result += checking[i] + " ";
+                        }  
                     }
                 }
                 else
@@ -69,7 +75,7 @@ namespace Space
                             {
                                 if (m != k)
                                 {
-                                    checking[i] += char.ToUpper(c);
+                                    checking[i] += "";
                                     m++;
                                 }
                                 else
@@ -78,7 +84,10 @@ namespace Space
                                 }
                             }
                         }
-                        result += checking[i] + " ";
+                        if (checking[i].Length != 0)
+                        {
+                            result += checking[i] + " ";
+                        }
                     }
                 }
             }
