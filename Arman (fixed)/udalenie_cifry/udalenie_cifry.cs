@@ -19,7 +19,7 @@ namespace Space
                 _i++;
             }
             string result = "";
-            if (length<11 && m<10 && m>=0)
+            if (length<10 && m<10 && m>=0)
             {
                 for (int i = 0; i < length; i++)
                 {
