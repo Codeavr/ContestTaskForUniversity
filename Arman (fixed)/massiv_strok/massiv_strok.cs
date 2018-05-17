@@ -42,7 +42,6 @@ namespace Space
             }
             result = result.Substring(0, result.Length - 1);
             Console.WriteLine(result);
-            Console.Read();
         }
     }
 }

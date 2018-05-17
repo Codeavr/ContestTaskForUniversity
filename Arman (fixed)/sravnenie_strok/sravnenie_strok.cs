@@ -17,7 +17,6 @@ namespace Space
             {
                 Console.WriteLine("SAME");
             }
-            Console.Read();
         }
     }
 }
