@@ -37,6 +37,7 @@ namespace Space
                 }
                 Console.WriteLine(result);
             }     
+            Console.Read();
         }
     }
 }

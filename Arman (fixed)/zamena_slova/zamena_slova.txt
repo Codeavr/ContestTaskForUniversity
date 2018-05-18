@@ -13,8 +13,12 @@
 
 Пример ввода и вывода:
 Пример №1:
-Ввод: "acabc abd abb bab bmnm dhb !ab"
-Вывод: "acabc *** *** bab bmnm dhb"
+Ввод:
+acabc abd abb bab bmnm dhb !ab
+Вывод:
+acabc *** *** bab bmnm dhb
 Пример №2:
-Ввод: "ab bab cab aaab ba ab !!ab"
-Вывод: "** bab cab aaab ba **"
+Ввод:
+ab bab cab aaab ba ab !!ab
+Вывод:
+** bab cab aaab ba **

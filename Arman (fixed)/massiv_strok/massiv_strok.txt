@@ -8,5 +8,7 @@
 Программа игнорирует символы отличные от букв.
 
 Пример ввода и вывода:
-Ввод: "DFSD !DV 6756 4hHKJ vNmv dv VNMv _dv."
-Вывод: "dfsd dv hhkj vnmv"
+Ввод:
+DFSD !DV 6756 4hHKJ vNmv dv VNMv _dv.
+Вывод:
+dfsd dv hhkj vnmv

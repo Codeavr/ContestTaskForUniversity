@@ -10,5 +10,7 @@
 Игнорируются такие символы, как '.' и ' '(пробел). Их количество остается неизменным.
 
 Пример ввода и вывода:
-Ввод: "hey. its me. dont forget abt me. never ."
-Вывод: "hey. its m. don frg ab . v ."
+Ввод:
+hey. its me. dont forget abt me. never .
+Вывод:
+hey. its m. don frg ab . v .

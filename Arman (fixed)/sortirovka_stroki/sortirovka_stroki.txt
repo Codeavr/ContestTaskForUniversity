@@ -7,5 +7,7 @@
 Вывести строку, упорядоченную по длине слов в порядке возрастания.
 
 Пример ввода и вывода:
-Ввод: "Hey it's me, I just wanted you to know that this is all a lie, please call me 8 999 7776655"
-Вывод: "I a 8 to me is all you me, Hey 999 just know lie, call that this it's wanted please 7776655"
+Ввод:
+Hey it's me, I just wanted you to know that this is all a lie, please call me 8 999 7776655
+Вывод:
+I a 8 to me is all you me, Hey 999 just know lie, call that this it's wanted please 7776655

@@ -22,6 +22,7 @@ namespace Space
                 result += b[k-1].ToString();
                 Console.WriteLine(result);
             }         
+            Console.Read();
         }
     }
 }

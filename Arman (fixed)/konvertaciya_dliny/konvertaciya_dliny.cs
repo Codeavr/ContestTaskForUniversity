@@ -21,6 +21,7 @@ namespace Space
                     Console.WriteLine((a * 100000).ToString());
                     break;
             }
+            Console.Read();
         }
     }
 }
