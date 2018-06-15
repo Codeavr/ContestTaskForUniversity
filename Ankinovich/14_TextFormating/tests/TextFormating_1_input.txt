@@ -1,1 +1,1 @@
-Привет,мир!как дела ?
+Hello,world!how are you ?

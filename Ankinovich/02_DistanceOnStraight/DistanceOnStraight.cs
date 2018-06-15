@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        double r = double.Parse(Console.ReadLine()) / 2.0;
-        Console.WriteLine(Math.Round(r * r * Math.PI, 2));
+        var input = Array.ConvertAll(Console.ReadLine().Split(' '), str => double.Parse(str));
+        Console.WriteLine(Math.Abs(input[0] - input[1]));
     }
 }

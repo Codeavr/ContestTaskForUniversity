@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Text.RegularExpressions;
 
 class Program
@@ -14,7 +15,6 @@ class Program
         str = RemoveSpacesBeforePuncutation(str);
         str = AddSpacesAfterPuncutation(str);
         str = FirstSentenseWorkToUpper(str);
-
         Console.WriteLine(str);
     }
 
@@ -65,7 +65,7 @@ class Program
             {
                 if (!char.IsWhiteSpace(str[index + 1]))
                 {
-                    str = str.Insert(index+1, " ");
+                    str = str.Insert(index + 1, " ");
                     index++;
                 }
             }
